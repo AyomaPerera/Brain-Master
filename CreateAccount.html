@@ -6,53 +6,65 @@
 </head>
 <body>
 
-    <form action="LoginPage.html">
+    <form action="LoginPage.html" method="GET">
         <div>
-            <h3>Create new account</h3>
-
-            <label for="fname">First Name :</label>
-            <input type="text" name="fname" id="fname" autofocus >
-            <br>
-            <br>
-
-            <label for="lname">Last Name :</label>
-            <input type="text" name="lname" id="lname" autofocus >
-            <br>
-            <br>
-
-            <label for="uname">Username  :</label>
-            <input type="text" name="uname" id="uname" autofocus >
-            <br>
-            <br>
-
-            <label for="mail">E-mail  :</label>
-            <input type="email" name="" id="" autofocus >
-            <br>
-            <br>
-            <label for="mob">Mobile Number: </label>
-            <input type="tel" name="mob" id="mob" autofocus >
-            <br>
-            <br>
-            <label for="pword">Password : </label>
-            <input type="password" name="pword" id="pword" autofocus >
-            <br>
-            <br>
-            <label for="cpword">Confirm Password : </label>
-            <input type="password" name="cpword" id="cpword" autofocus >
-            <br>
-            <br>
-           <label for="Job">Choose your Occupation</label>
-            <select name="Job" id="Job" autofocus >
-                <option value="student">Student</option>
-                <option value="teacher">Teacher</option>
-            </select>
-            <br>
-            <br>
-            <button type="submit">
-                <a href="LoginPage.html">
-                    <b>Create Account</b>
-                </a>
-            </button>           
+           <Fieldset>
+               <legend>Create new account</legend>
+               <table>
+                   <tr>
+                       <th>First name</th>
+                       <th>
+                           <input type="text" name="" autofocus required id="">
+                       </th>
+                   </tr>
+                   <tr>
+                       <th>Last name</th>
+                       <th>
+                           <input type="text" autofocus required name="" id="">
+                       </th>
+                   </tr>
+                   <tr>
+                       <th>Enter username</th>
+                       <th>
+                           <input type="text" autofocus required name="" id="">
+                       </th>
+                   </tr>
+                   <tr>
+                       <th>Enter valid a E-Mail</th>
+                       <th>
+                           <input type="email" autofocus required name="" id="">
+                       </th>
+                   </tr>
+                   <tr>
+                       <th>Enter Mobile</th>
+                       <th>
+                           <input type="tel" autofocus required name="" id="">
+                       </th>
+                   </tr>
+                   <tr>
+                       <th>Enter new password</th>
+                       <th>
+                           <input type="password" autofocus required name="" id="">
+                       </th>
+                   </tr>
+                   <tr>
+                       <th>Confirm password</th>
+                       <th>
+                           <input type="password" autofocus required name="" id="">
+                       </th>
+                   </tr>
+                   <tr>
+                       <th>Choose your occupation</th>
+                       <th>
+                           <select name="" id="">
+                               <option value="teacher">Teacher</option>
+                               <option value="stu">Student</option>
+                           </select>
+                       </th>
+                   </tr>
+               </table>
+               <button type="submit" onclick="alert('Successfully Created')"> <b> Create </b></button>
+           </Fieldset>           
             
         </div>
     </form>

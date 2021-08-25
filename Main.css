@@ -1,18 +1,18 @@
 body
 {
-    background-image: url(https://t3.ftcdn.net/jpg/02/39/39/92/360_F_239399223_tthRTvt26El5ccmyQIck9ySsHKgX5YBo.jpg);
-    background-size: 116.1%;
+    background-image: url(/png/WEB\ BACKGROUND-01.jpg);
+    background-position:top;
+    background-size: 1360px 700px;
     background-repeat: no-repeat;
 }
 
 div
 {
     border-style: solid;
-    background-color: purple;
-    padding-bottom: 6%;
+    background-color: white;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 3%;
+    padding-top: 2%;
     width: 40%;
     height: 300px;
     color: white;
@@ -26,14 +26,16 @@ h1
 
 button
 {
-    background: blueviolet; 
+    border: solid whitesmoke;
+    background: gainsboro; 
     position: absolute; 
     display: block; 
-    margin-left: 18%;
+    margin-left: 45%;
     margin-bottom: 5%;
     height: 8%;
     width: 10%;
     cursor: pointer;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
 }

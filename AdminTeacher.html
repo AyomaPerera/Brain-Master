@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="IntroPage.css">
-    <title>Intro Page</title>
+    <link rel="stylesheet" href="AdminTeacher.css">
+    <title>Admin teacher Page</title>
 </head>
 <body>
 
@@ -10,9 +10,9 @@
         <li><a href="IntroPage.html">Home</a></li>
         
         <li >
-          <a href="AdminTeacher.html" >Teachers</a> 
-        </li>
-          
+            <a href="AdminTeacher.html" >Teachers</a> 
+          </li>
+  
           <li class="dropdown">
             <a href="" class="dropbtn">Grade</a>
             <div class="dropdown-content">
@@ -53,11 +53,50 @@
               <button type="submit">Search</button>
         
           </li>
+   </ul>
 
-      </ul>
+   <div class="form1">
 
-      <img src="/png/LOGO-01.jpg" alt="">
-  
+    <img class="icon" src="/png/teacher.png" alt="">
+
+
+     <div class="head1">
+       <h2>
+         Admin Login
+       </h2>
+     </div>
+
+     <form action="Teachers_UploadVideo.html" method="GET">
+     <table>
+       <tr>
+         <th>
+           <input class="text" placeholder="Enter your username" type="text" name="" id="" required autofocus>
+         </th>
+       </tr>
+       <tr>
+        <th>
+          <input class="text" placeholder="Enter your password" type="password" name="" id="" required>
+        </th>
+      </tr>
+     </table>
+
+     <br>
+
+     <button class="btn" type="submit"> LogIn</button>
+    </form>
+    
+    <br>
+
+
+    <a href="TeacherCreateAccount.html">
+      <button class="btn" type="submit"> SingIn</button>
+     </a>
+
+      <br><br>
+
+    <a class="a1" href="AdminForgotPassword.html">
+      Forget your password, Click now.
+    </a> 
 
 </body>
 </html>

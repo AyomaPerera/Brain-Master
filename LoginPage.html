@@ -2,35 +2,56 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="LoginPage.css">
-    <title>Home page</title>
+    <title>Login page</title>
 </head>
 <body>
     
+<form action="IntroPage.html" method="GET">
     <div>
-        <img src="https://www.searchpng.com/wp-content/uploads/2019/02/Profile-ICon.png" width="20%" height="33%" alt="">
-        <br>
-        <br>
-        
-        <form action="IntroPage.html" method="POST">
+        <fieldset>
+            <legend>Brain Master Login</legend>
+            <table>
+                <tr>
+                    <th>Username</th>
+                    <th>
+                        <input type="text" name="" id="" size="30cm" autofocus required>
+                    </th>
+                </tr>
+                <tr>
+                    <th>E-mail</th>
+                    <th>
+                        <input type="email" name="" id="" size="30cm" autofocus required>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Password</th>
+                    <th>
+                        <input type="password" name="" id="" size="30cm" autofocus required>
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <button type="submit"> Login </button>
+                    </th>
+                </tr>
 
-            <input type="text" placeholder="Username" name="uname" required>
-            <br><br>
-            <input type="email" placeholder="e-mail" name="mail" required>
-            <br><br>
-            <input type="password" placeholder="Password" name="password" id="password" required>
-            <br><br>
-            <button type="submit">Login
-            </button>
+            </table>
+            
+            <p>Do you haven't an account ?
+                <a href="CreateAccount.html">Click</a>      
+            </p>
            
+            <p>Do you forgot your password ?
+                <a href="ForgetPassword.html">Click</a>      
+            </p>
+                
+         
 
-        </form>
-        <br><br><br>
-        <a href="CreateAccount.html">Create new account</a>
-      
-        <a href="ForgetPassword.html">Forget Password</a>
-        <br><br>
+          
+        </fieldset>
 
     </div>
+</form>
 
 </body>
 </html>
